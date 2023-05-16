@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/common/example",
         "main": "packages/common/example/src/index.ts",
         "tsConfig": "packages/common/example/tsconfig.lib.json",
-        "assets": ["packages/common/example/*.md"]
+        "assets": ["packages/common/example/*.md"],
+        "external": ["all"]
       }
     },
     "lint": {

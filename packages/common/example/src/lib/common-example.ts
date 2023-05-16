@@ -1,3 +1,6 @@
-export function commonExample(): string {
-  return 'common-example';
+import { injectable } from 'tsyringe';
+
+@injectable()
+export class CommonExample {
+
 }
